@@ -1,0 +1,22 @@
+package component:greet
+
+interface doer {
+  hello-world: func() -> string
+
+  hello-name: func(name: string) -> string
+}
+
+interface additional {
+  additional-world: func() -> string
+
+  additional-name: func(name: string) -> string
+}
+
+/// An example world for the component to target.
+world component {
+  import doer
+  import additional
+
+  export doer
+  export additional
+}                

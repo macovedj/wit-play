@@ -1,0 +1,10 @@
+package foo:hello
+/// An example world for the component to target.
+use component:greet/doer
+
+use component:greet/additional
+
+world component {
+  import additional
+  import doer
+}
