@@ -12,14 +12,6 @@ checksum = "6dbe3c979c178231552ecba20214a8272df4e09f232a87aef4320cf06539aded"
 name = "greet"
 version = "0.1.0"
 dependencies = [
- "greet-bindings",
- "wit-bindgen",
-]
-
-[[package]]
-name = "greet-bindings"
-version = "0.1.0"
-dependencies = [
  "wit-bindgen",
 ]
 

@@ -1,0 +1,7 @@
+package foo:goodbye
+
+use foo:hello/wit@1.0.0
+
+world goodbye-world {
+  import wit
+}

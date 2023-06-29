@@ -3,9 +3,9 @@
 version = 1
 
 [[package]]
-id = "component:greet"
+id = "foo:hello"
 
 [[package.version]]
 requirement = "^1.0.0"
 version = "1.0.0"
-digest = "sha256:296fea78b5c59abd731ccfe63cc8f96106085ac8ad91deb2ae7d15c63b1b4169"
+digest = "sha256:9bdfc9a33d1dbe9f9c950a09f57fb7fc8ba53ad120d27afa725353a8bef353e2"

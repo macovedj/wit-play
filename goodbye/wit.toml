@@ -1,0 +1,6 @@
+version = "0.1.0"
+
+[dependencies]
+"foo:hello" = "1.0.0"
+
+[registries]
